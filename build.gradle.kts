@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.danylom73"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -15,7 +15,7 @@ dependencies {
 }
 
 kotlin {
-    jvmToolchain(23)
+    jvmToolchain(21)
 }
 
 application {
